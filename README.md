@@ -27,6 +27,8 @@ i hope i can finish it well and properly.
 i hope i don't sacrifice things that shouldn't be sacrificed.
 i hope i do this well enough to pass.
 
+i did not expect that I'll take forever to eat the tutorials 😭. thing is, i feel bleurgh already. like i really don't wanna continue this rn. but i wanna lulus. imma face it again.
+
 == Kamis, 13 Feb 2025 ==
 -- very happy coz i can finally build stuff now TvT
 today, MY LINUX UBUNTU IS WARAS AND I CAN FINALLY USE THE GUI TvT ! sosososososo happy. 
