@@ -1,6 +1,6 @@
-bookmarks of yummy resources to eat 
--
+# bookmarks of yummy resources to eat 
 
+## Ubuntu 
 * Ubuntu 20.04 (focal fossa) instalation
 https://releases.ubuntu.com/focal/ 
 
@@ -9,13 +9,15 @@ https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
 
 * how to configure ur Ubuntu system (?) (it's trial and error hahahaha, gonna make this in my TA book)
 
--- Intro to ROS2 in Ubuntu
+
+## ROS2 (Robot Operating System)
+-- Intro to ROS2 in Ubuntu  
 https://ubuntu.com/tutorials/getting-started-with-ros-2#2-prerequisites
 
--- ROS2 (Galactic Geochelone) instalation
+-- ROS2 (Galactic Geochelone) instalation  
 https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 
--- ROS2 tutorials
+-- ROS2 tutorials  
 https://docs.ros.org/en/galactic/Tutorials.html
 
 
