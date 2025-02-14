@@ -23,7 +23,7 @@ https://docs.ros.org/en/galactic/Tutorials.html
 
 blurts
 -
-== Jumat, 14 Feb 2025 ==
+**Jumat, 14 Feb 2025**
 this feels exciting. 
 i hope i can finish it well and properly.
 i hope i don't sacrifice things that shouldn't be sacrificed.
@@ -34,7 +34,7 @@ i did not expect that I'll take forever to eat the tutorials 😭. thing is, i f
 ok so, to use the repo by elephant robotics, 
 we'll need to understand how to build a workspace in ROS2, which is still quite far from what i ate. oh we got a loooooong way to go.
 
-== Kamis, 13 Feb 2025 ==
+**Kamis, 13 Feb 2025**
 -- very happy coz i can finally build stuff now TvT
 today, MY LINUX UBUNTU IS WARAS AND I CAN FINALLY USE THE GUI TvT ! sosososososo happy. 
 do i know why it can work? NO HAHAHAHAHA
