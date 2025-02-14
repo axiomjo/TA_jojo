@@ -29,6 +29,9 @@ i hope i do this well enough to pass.
 
 i did not expect that I'll take forever to eat the tutorials 😭. thing is, i feel bleurgh already. like i really don't wanna continue this rn. but i wanna lulus. imma face it again.
 
+ok so, to use the repo by elephant robotics, 
+we'll need to understand how to build a workspace in ROS2, which is still quite far from what i ate. oh we got a loooooong way to go.
+
 == Kamis, 13 Feb 2025 ==
 -- very happy coz i can finally build stuff now TvT
 today, MY LINUX UBUNTU IS WARAS AND I CAN FINALLY USE THE GUI TvT ! sosososososo happy. 
