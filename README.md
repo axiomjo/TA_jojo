@@ -1,13 +1,13 @@
 bookmarks of yummy resources to eat 
 -
 
-*Ubuntu 20.04 (focal fossa) instalation
+* Ubuntu 20.04 (focal fossa) instalation
 https://releases.ubuntu.com/focal/ 
 
-*Intro to Command Line Interface
+* Intro to Command Line Interface
 https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
 
-*how to configure ur Ubuntu system (?) (it's trial and error hahahaha, gonna make this in my TA book)
+* how to configure ur Ubuntu system (?) (it's trial and error hahahaha, gonna make this in my TA book)
 
 -- Intro to ROS2 in Ubuntu
 https://ubuntu.com/tutorials/getting-started-with-ros-2#2-prerequisites
