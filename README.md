@@ -8,7 +8,7 @@ https://releases.ubuntu.com/focal/
 https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
 
 * how to configure ur Ubuntu system (?) (it's trial and error hahahaha, gonna make this in my TA book)
-
+- problem 1: black screen after rebooting
 
 ## ROS2 (Robot Operating System)
 -- Intro to ROS2 in Ubuntu  
