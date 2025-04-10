@@ -23,6 +23,10 @@ https://docs.ros.org/en/galactic/Tutorials.html
 
 blurts
 -
+
+**Kamis, 10 April 2025**
+it's been 2 months now, and im back to learning ROS2. skrg udh sampe tutorial yg "implementing custom interfaces". klo bisa selesain beginner hariini kyknya bagus. klo bisa sampe advanced, lebih bagus lagi. serius seneng bgt akhirnya bisa lanjut balik ke sini T-T. pingin lulus semester ini.  
+
 **Jumat, 14 Feb 2025**
 this feels exciting. 
 i hope i can finish it well and properly.
