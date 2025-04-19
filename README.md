@@ -20,6 +20,8 @@ https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 -- ROS2 tutorials  
 https://docs.ros.org/en/galactic/Tutorials.html
 
+-- Mycobot 280 Pi python programming(?)
+https://docs.elephantrobotics.com/docs/mycobot_280_pi_en/3-FunctionsAndApplications/6.developmentGuide/python/1_download.html
 
 blurts
 -
