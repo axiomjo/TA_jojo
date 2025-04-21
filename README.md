@@ -20,6 +20,8 @@ https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 -- ROS2 tutorials  
 https://docs.ros.org/en/galactic/Tutorials.html
 
+-- Rviz2
+https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.4-rviz%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8/
 
 ## Mycobot 280 Pi
 -- Mycobot 280 Pi python programming(?)
