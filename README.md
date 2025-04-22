@@ -23,6 +23,15 @@ https://docs.ros.org/en/galactic/Tutorials.html
 -- Rviz2
 https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.4-rviz%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8/
 
+-- Ignition Gazebo Fortress for ROS2 Galactic, Ubuntu Focal
+[https://gazebosim.org/docs/latest/ros_installation/#installing-non-default-gazebo-ros-2-pairings
+](https://github.com/gazebosim/ros_gz/tree/galactic#from-source)
+
+https://gazebosim.org/docs/fortress/install_ubuntu/
+
+-- how to use Ignition Gazebo
+`ign gazebo (blablablla)`
+
 ## Mycobot 280 Pi
 -- Mycobot 280 Pi python programming(?)
 https://docs.elephantrobotics.com/docs/mycobot_280_pi_en/3-FunctionsAndApplications/6.developmentGuide/python/1_download.html
