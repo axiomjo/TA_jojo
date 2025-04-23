@@ -1,0 +1,25 @@
+Next Steps to See the Video Feed:
+
+To actually see the video feed being published, you need to use another ROS 2 tool that can subscribe to the /camera/image topic and display the image data. A common tool for this is RViz2 with the Image display type.
+
+Here's how you can try to view the feed in RViz2:
+
+Open a new terminal.
+Source your ROS 2 environment:
+Bash
+
+source /opt/ros/galactic/setup.bash  # Replace 'galactic' with your ROS 2 distribution if different
+source /home/axiomjo/elephantrobotics_ws/install/setup.bash
+Launch RViz2:
+Bash
+
+ros2 run rviz2 rviz2
+In RViz2:
+Click the "Add" button (usually in the bottom left panel).
+In the "Create New Display" window, find and select "Image".
+Click "OK".
+In the "Displays" panel, you should now see an "Image" entry. Expand it.
+Look for the "Image Topic" property. Click on the dropdown menu next to it and select /camera/image.
+If everything is working correctly, you should now see the video feed from your camera displayed in the RViz2 window.
+
+Let me know if you encounter any issues while trying to view the image feed in RViz2!
