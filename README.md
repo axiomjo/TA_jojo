@@ -30,7 +30,7 @@ https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS
 https://gazebosim.org/docs/fortress/install_ubuntu/
 
 -- how to use Ignition Gazebo
-`ign gazebo (blablablla)`
+`ign gazebo (blablablla) --render-engine ogre`
 
 ## Mycobot 280 Pi
 -- Mycobot 280 Pi python programming(?)
