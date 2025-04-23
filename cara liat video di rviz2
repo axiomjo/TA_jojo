@@ -23,3 +23,87 @@ Look for the "Image Topic" property. Click on the dropdown menu next to it and s
 If everything is working correctly, you should now see the video feed from your camera displayed in the RViz2 window.
 
 Let me know if you encounter any issues while trying to view the image feed in RViz2!
+
+
+If you're on Linux, you can use the v4l2-ctl command-line tool to list available video devices. You might need to install it first:
+Bash
+
+sudo apt update
+sudo apt install v4l-utils
+Then, run:
+Bash
+
+v4l2-ctl --list-devices
+This will output a list of video devices. Look for your webcam in the list. The device path (e.g., /dev/video0, /dev/video1) might give you a clue about its index (e.g., /dev/video0 often corresponds to index 0, /dev/video1 to index 1, etc.).
+Using ls /dev/video* (Linux):
+
+A simpler command to list video devices:
+Bash
+
+ls /dev/video*
+The output will show the video device files. The numbering might correspond to the index OpenCV uses.
+2. Launch the opencv_camera Node with the Correct Index:
+
+Once you've (hopefully) identified the index of your webcam (let's say it's 1 for this example), you can launch the opencv_camera node and pass this index as a parameter:
+
+Open a new terminal.
+Source your ROS 2 environment.
+Run the launch command with the --ros-args -p flag to set the num parameter:
+Bash
+
+ros2 run mycobot_280pi opencv_camera --ros-args -p num:="1"
+Replace "1" with the actual index you found for your webcam.
+3. Verify in RViz2:
+
+Make sure RViz2 is running and still set to display the /camera/image topic. If you've provided the correct index, the video feed should now be coming from your webcam.
+
+Example Scenario:
+
+Let's say you run v4l2-ctl --list-devices and see your webcam listed as /dev/video1. This likely means its index is 1. You would then run:
+
+Bash
+
+ros2 run mycobot_280pi opencv_camera --ros-args -p num:="1"
+And you should see the webcam feed in RViz2.
+
+Keep trying different index values (starting from 1 and going up) until you see the feed from your desired webcam. Remember to restart the opencv_camera node each time you change the parameter. Good luck!
+
+
+WEB CAM: WEB CAM (usb-0000:00:14.0-3):
+
+/dev/video2
+
+/dev/video3
+
+
+
+ASUS USB2.0 Webcam: ASUS USB2.0 (usb-0000:00:1a.0-1.3):
+
+/dev/video0
+
+/dev/video1
+
+
+
+
+Okay, that's very helpful! Based on the output you provided:
+
+WEB CAM (usb-0000:00:14.0-3) seems to be associated with /dev/video2 and /dev/video3.
+ASUS USB2.0 Webcam (usb-0000:00:1a.0-1.3) is associated with /dev/video0 and /dev/video1.
+To try using the WEB CAM, you should try launching the opencv_camera node with the num parameter set to 2 and then 3.
+
+To try using the ASUS USB2.0 Webcam, you should try launching with num set to 0 and then 1.
+
+Here's what you should try in your terminal (remember to source your ROS 2 environment first in each new terminal):
+
+For the WEB CAM:
+
+Bash
+
+ros2 run mycobot_280pi opencv_camera --ros-args -p num:="2"
+Wait a few seconds and check RViz2 for the image feed. If it's not the WEB CAM, try:
+
+Bash
+
+ros2 run mycobot_280pi opencv_camera --ros-args -p num:="3"
+Again, check RViz2.
