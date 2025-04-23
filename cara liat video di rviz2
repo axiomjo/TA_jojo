@@ -1,3 +1,16 @@
+actually:
+
+pake package usb_cam
+
+
+ros2 run usb_cam <correct_executable_name> --ros-args -p video_device:="/dev/video2"
+
+trus image topic `/image_raw`
+
+
+
+
+===========
 Next Steps to See the Video Feed:
 
 To actually see the video feed being published, you need to use another ROS 2 tool that can subscribe to the /camera/image topic and display the image data. A common tool for this is RViz2 with the Image display type.
