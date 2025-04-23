@@ -107,3 +107,24 @@ Bash
 
 ros2 run mycobot_280pi opencv_camera --ros-args -p num:="3"
 Again, check RViz2.
+
+
+Ah, that's a very specific error! It seems the declare_parameter('num', "0") line in the Python code explicitly declares the parameter num as a string with a default value of "0". However, when you pass --ros-args -p num:="2", ROS 2 is interpreting "2" as an integer.
+
+This type mismatch is causing the rclpy.exceptions.InvalidParameterTypeException.
+
+Solution:
+
+You need to ensure that the value you pass via the command line is also treated as a string. You can do this by explicitly quoting the value in your command:
+
+Bash
+
+ros2 run mycobot_280pi opencv_camera --ros-args -p num:='"2"'
+Notice the extra single quotes around the double quotes of the value "2". This tells the command line to pass the value as a string.
+
+Try this command and see if it resolves the error:
+
+Bash
+
+ros2 run mycobot_280pi opencv_camera --ros-args -p num:='"2"'
+Then, check RViz2 to see if the video feed from your WEB CAM appears. If not, try the other indices you found, making sure to keep the value as a string within quotes:
