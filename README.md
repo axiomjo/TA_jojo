@@ -46,9 +46,15 @@ https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.2.
 
 -- loading the premade URDF file  
 punya xacro dulu
+download package joint_state_publisher_gui
 
 blurts
 -
+**Rabu, 23 April 2025**  
+hariini bisa liat file URDF, launchfiles, executables :D yeeyy
+bisa buka kamera lappy juga yeyeeyey
+
+
 **Senin, 14 April 2025**
 learning is learning. isokeh. lesgo finish this, bby!
 
