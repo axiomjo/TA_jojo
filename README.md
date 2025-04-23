@@ -44,6 +44,8 @@ https://docs.elephantrobotics.com/docs/mycobot_280_pi_en/3-FunctionsAndApplicati
 -- MyCobot 280 Pi with Ethernet cable
 https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.2.2%20Robotic%20Arm%20Electrical%20Interface.html
 
+-- loading the premade URDF file  
+punya xacro dulu
 
 blurts
 -
