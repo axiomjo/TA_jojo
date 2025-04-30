@@ -41,6 +41,18 @@ download package joint_state_publisher_gui
 
 blurts
 -
+**Rabu, 30 April 2025**
+ok, i gagal daftar prasem kemaren. so, g bisa lulus sem ini. ohwell, it was my mistake anyway, i accept this reality. btw, i feel blank, i dunno what to do now that i have more time to do my TA. but finishing it before July is definitely interesting.  
+i think imma make agood presentation for my seminar, one that introduces ROS2 & robotics resources to newbies alike.  
+
+semoga kewujud ya, i think that'll be useful n good. maybe i'll get to teach it to other interested peeps. i hope so :D.
+
+hm, i wanna teach. seems interesting and good to know.
+
+btw, i havent finished my dbs coding camp thinggy, i hope tommorow will do :D
+
+k, bby jo, i love ya. u r loved.
+
 **Rabu, 23 April 2025**  
 hariini bisa liat file URDF, launchfiles, executables :D yeeyy
 bisa buka kamera lappy juga yeyeeyey
