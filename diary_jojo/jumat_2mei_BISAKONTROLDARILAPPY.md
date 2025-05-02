@@ -60,7 +60,7 @@ ganti semua isinya (ato komen pake #) jadi
   ethernets:
     eth0:
       dhcp4: no
-      addresses: [192.168.10.2/24]
+      addresses: [169.254.0.1/16]
 `  
 
 Save (Ctrl+O, Enter)
