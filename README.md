@@ -1,11 +1,11 @@
 [LAST EDITED: 2 Mei 2025 12:59]
 # 📌 What to Code First (MVP Plan)
 
-##  Step 1: Set Up Basic Robot Communication
+## ✅ Step 1: Set Up Basic Robot Communication
 
 - Install ROS2 Galactic and test MyCobot’s movement.
 
-Write a simple ROS2 publisher to send movement commands.
+- Write a simple ROS2 node to send movement commands.
 
 - Verify LAN communication with the MyCobot 280 Pi.
   
