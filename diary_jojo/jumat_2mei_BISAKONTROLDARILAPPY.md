@@ -41,7 +41,44 @@ This application failed to start because no Qt platform plugin could be initiali
 Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, xcb.
 
 ---
-# disaranin ganti static IP coz yg itu 169.x.x.x masuk kategori **link-local addressing**. oh....
+# 📑 cara set static ip mycobot selamanya  
+
+kan pake tipe **point-to-point ethernet connection**,
+
+  dan   
+  ip address RASPBERRY PI mycobot = 169.254.0.1  
+
+so, di mycobot,buka terminal (CTRL + ALT + T)  
+
+edit file YAML( YAML Aint Markup Language) netplan pake `nano` di terminal  
+`sudo nano /etc/netplan/01-network-manager-all.yaml`  
+
+ganti semua isinya (ato komen pake #) jadi  
+`network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:
+      dhcp4: no
+      addresses: [192.168.10.2/24]
+`  
+
+Save (Ctrl+O, Enter)
+
+trus keluar dari `nano` (Ctrl+X)  
+
+trus apply config  
+`sudo netplan apply`  
+
+trus reboot mycobot
+`sudo reboot`  
+
+trus ntar sambungin kabel ethernet langsung ke laptop kita deh.
+trus yg ssh supaya bisa GUI.
+
+DAH. OTOMATIS NYAMBUNG GPERLU NGETIK2 DI MYCOBOT LAGIIIII. :>
+
+
 
 
 
