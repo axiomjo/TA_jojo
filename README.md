@@ -1,4 +1,4 @@
-[LAST EDITED: 2 Mei 2025 12:59]
+[LAST EDITED: 2 Mei 2025 16:57]
 # 📌 What to Code First (MVP Plan)
 
 ## ✅ Step 1: Set Up Basic Robot Communication
@@ -97,7 +97,7 @@ download package joint_state_publisher_gui
 blurts
 -
 **Rabu, 30 April 2025**
-ok, i gagal daftar prasem kemaren. so, g bisa lulus sem ini. ohwell, it was my mistake anyway, i accept this reality. btw, i feel blank, i dunno what to do now that i have more time to do my TA. but finishing it before July is definitely interesting.  
+i feel blank, i dunno what to do now that i have more time to do my TA. but finishing it before July is definitely interesting.  
 i think imma make agood presentation for my seminar, one that introduces ROS2 & robotics resources to newbies alike.  
 
 semoga kewujud ya, i think that'll be useful n good. maybe i'll get to teach it to other interested peeps. i hope so :D.
