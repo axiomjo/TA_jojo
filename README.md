@@ -1,3 +1,58 @@
+[LAST EDITED: 2 Mei 2025 12:59]
+# 📌 What to Code First (MVP Plan)
+
+## ✅ Step 1: Set Up Basic Robot Communication
+
+Install ROS2 Galactic and test MyCobot’s movement.
+
+Write a simple ROS2 publisher to send movement commands.
+
+- Verify LAN communication with the MyCobot 280 Pi.
+  
+
+## ✅ Step 2: Control the Vacuum Pump
+
+Write a script to turn the vacuum pump on/off via ROS2.
+
+Test picking up and releasing objects manually using commands.
+
+## ✅ Step 3: Display Webcam Feed
+
+- Use OpenCV to capture and display the video feed.
+  
+- Ensure real-time video streaming on your Qt5 GUI.
+  
+
+## ✅ Step 4: Basic Object Detection
+
+Detect a simple object using color or shape detection.
+
+Overlay the detected object's position on the webcam feed.
+
+## ✅ Step 5: Move Robot to Object
+
+Convert detected object position into robot coordinates.
+
+- Move the MyCobot to the object using simple hardcoded movements.
+  
+
+## ✅ Step 6: Automate Pick & Place
+
+Combine movement + vacuum pump control to complete one full cycle:
+
+Detect object.
+
+Move arm to object.
+
+Activate vacuum pump.
+
+Lift & move object to a fixed drop zone.
+
+Release object.
+
+---
+
+
 # bookmarks of yummy resources to eat 
 
 ## Ubuntu 
