@@ -78,6 +78,13 @@ trus yg ssh supaya bisa GUI.
 
 DAH. OTOMATIS NYAMBUNG GPERLU NGETIK2 DI MYCOBOT LAGIIIII. :>
 
+---
+sooo today aku baru tau klo app "files" yg ada di lappy ubuntuku itu namanya "nautilus".  
+
+  so, buat jalanin itu lewat terminal ketik aja  
+  `nautilus`  
+
+HAHA! GAUSAH SUSAH2 PAKE `less`, `nano` LAGI HAHAHAHA ADA GUINYA HAHAHAHAHHA
 
 
 
