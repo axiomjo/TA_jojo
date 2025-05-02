@@ -45,7 +45,7 @@ Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, 
 
 kan pake tipe **point-to-point ethernet connection**,
 
-  dan   
+  dan mepinginnya  
   ip address RASPBERRY PI mycobot = 169.254.0.1  
 
 so, di mycobot,buka terminal (CTRL + ALT + T)  
