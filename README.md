@@ -97,7 +97,7 @@ download package joint_state_publisher_gui
 blurts
 -
 **Sabtu, 3 Mei 2025**
-GW BARU PAHAM HARIINI KNP BUTUH LAUNCHFILES WKWKWK. like, bayangin user gangerti apa2 disuru jalanin software ini, pasti bingung bgt mesti jalanin node mana yg ada di package mana dll dll. klo w nyediain launch file, mereka tinggal jalanin itu, n bisa langsung make tanpa harus ngerti command terminal lain! OOHOHOHOHOHOH
+GW BARU PAHAM HARIINI KNP BUTUH LAUNCHFILES & DOCS WKWKWK. like, bayangin user gangerti apa2 disuru jalanin software ini, pasti bingung bgt mesti jalanin node mana yg ada di package mana dll dll. klo w nyediain launch file dan docs, mereka tinggal jalanin itu, n bisa langsung make tanpa harus ngerti command terminal lain! OOHOHOHOHOHOH
 
 **Rabu, 30 April 2025**
 i feel blank, i dunno what to do now that i have more time to do my TA. but finishing it before July is definitely interesting.  
