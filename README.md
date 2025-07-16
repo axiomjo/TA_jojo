@@ -84,6 +84,12 @@ https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS
 `ros2 launch gazebo_ros gazebo.launch.py`
 
 ## Mycobot 280 Pi
+-- Mycobot 280pi ROS (ROS1) gitbook 
+https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.1-ROS1/12.1.1-%E4%BB%8B%E7%BB%8D.html
+
+-- MyCobot 280pi ROS2 control, premade packages, & launchfiles gitbook
+https://docs.elephantrobotics.com/docs/gitbook-en/12-ApplicationBaseROS/12.2-ROS2/12.2.4-rviz%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8/myCobot-280.html
+
 -- Mycobot 280 Pi python programming(?)
 https://docs.elephantrobotics.com/docs/mycobot_280_pi_en/3-FunctionsAndApplications/6.developmentGuide/python/1_download.html
 
@@ -96,6 +102,13 @@ download package joint_state_publisher_gui
 
 blurts
 -
+**Rabu, 16 Jul 2025**
+jujur y, w agak stress krn gak familiar-familiar sama kodingan dasar nya. kan sebenernya TA ini tuh: robot, bisa dikontrol lewat GUI yg di-custom-made (pake pyQt), tuker-tukeran data sama laptop pake ROS2 ((krn ada tipe komunikasi yg w gtw cara implementasiin klo dari 0 kyk publisher-subscriber [di camera feed. di feedback posisi motor servo tiap joints), service-client(di GUI nya, di vacuum pump(?)), action_server-client(selama proses gerakan robot).)), sehingga bisa ngambil objek tipis di permukaan meja dan naro itu objek sesuai arrangement yang udah disusun sama user lewa GUI. yeah, i need help to actually implemet this, don't i. wish me luck konsultasi ke pak Andri this week supaya bisa ngodingnya. (T-T)  
+
+masalah utamaku sekarang: aku masih gatau mesti nulis kode apa, di mana, dan gimana cara jalaninnya supaya robotnya bisa publish kondisi tiap motor servo, yg kudengerin pake pymycobot(?), yg udh ada contohnya tapi aku gtw cara milah bagian mana yg ngelakuin itu ke rviz? trus klo mau ndengerin yg udh dikasih, caranya gimana? aku gangerti cara ngebedah contoh yg udh ada T-T. yaudah, jumat semoga bisa konsul. ok.
+
+
+
 **Sabtu, 3 Mei 2025**
 GW BARU PAHAM HARIINI KNP BUTUH LAUNCHFILES & DOCS WKWKWK. like, bayangin user gangerti apa2 disuru jalanin software ini, pasti bingung bgt mesti jalanin node mana yg ada di package mana dll dll. klo w nyediain launch file dan docs, mereka tinggal jalanin itu, n bisa langsung make tanpa harus ngerti command terminal lain! OOHOHOHOHOHOH
 
