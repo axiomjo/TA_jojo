@@ -1,0 +1,76 @@
+1️⃣ Define the Problem Clearly
+Ask: What does this node need to do, and why?
+
+Write: A one-sentence purpose for the node.
+
+Example: “This node reads a camera feed and publishes RGB images for other nodes.”
+
+2️⃣ Decide the Node’s Boundaries
+Ask: What’s inside vs. outside this node?
+
+Avoid: Making a “God node” that does everything.
+
+Tip: One node = one main responsibility.
+
+3️⃣ Choose Communication Needs
+Ask: Will the node:
+
+Publish data? (Publisher)
+
+Receive data? (Subscriber)
+
+Respond to requests? (Service)
+
+Perform long-running tasks? (Action)
+
+Plan: Define topics/services/actions before coding.
+
+4️⃣ Select Interfaces (msg/srv/action types)
+Ask: Can I use a standard ROS 2 message type, or do I need a custom one?
+
+Tip:
+
+Use sensor_msgs, geometry_msgs, etc., if they fit.
+
+Create an interfaces package for custom .msg files if needed.
+
+5️⃣ Plan Configurability
+Ask: What should be adjustable without editing code?
+
+Do: Use ROS 2 parameters (YAML configs) for things like speed limits, topic names, thresholds.
+
+6️⃣ Think About Dependencies
+Ask: What libraries or packages will this node need?
+
+Tip: Keep dependencies minimal and avoid bringing in heavy packages unless necessary.
+
+7️⃣ Decide Where the Node Lives
+Ask: Is this node reusable in other projects?
+
+Yes → Put it in its own package.
+
+No, tied to specific hardware → Group it with related nodes.
+
+8️⃣ Prototype Small First
+Start with a barebones node that logs messages.
+
+Add publishers/subscribers/services one at a time.
+
+Test with ros2 topic echo, ros2 service call, etc.
+
+9️⃣ Write a Launch File Early
+Even for one node, make a .launch.py file so you can pass parameters and start it consistently.
+
+🔟 Document
+Update your README with:
+
+Node purpose
+
+Inputs/outputs
+
+Parameters
+
+Example launch command
+
+If you follow these steps in order, you’ll always have a clear mental model before touching code, which is the #1 way to avoid ROS 2 spaghetti projects.
+
